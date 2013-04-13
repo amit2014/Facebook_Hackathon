@@ -2,22 +2,15 @@
 <html>
 <head>
     <title> Orgastra </title>
+		<link type="text/css" rel="stylesheet" href="css/global.css" />
     <style>
-        body{
-	text-align:center;
-	background-image:url('texture.jpg');
-	background-size:cover;
-	background-repeat:no-repeat;
-        }
 	img {
 		-webkit-transition: all 40s linear ;
 		-moz-transition: all 40s linear ;
 		-o-transition: all 40s linear ;
 		-ms-transition: all 40s linear ;
 		transition: all 40s linear ;
-
-		
-        }
+  }
 
 	img:only-of-type {
 		-webkit-transform: scale(200,200) ;
@@ -37,11 +30,11 @@
 <head>
 
 <body>
-    <div id = "loading">
-	    <img id="png" src= "Record Disc.png" width = "350"  height= "350" style = "padding:120px"/>
+    <div id="loading">
+	    <img id="png" src= "images/record_disc.png" width = "350"  height= "350" style = "padding:120px"/>
     </div>
-    <div id = "loading_text">
-	    <img src = "Loading.gif" width = "200" height = "97"/>
+    <div id="loading_text">
+	    <img src="images/loading.gif" width = "200" height = "97"/>
     </div>
 </body>
 </html>

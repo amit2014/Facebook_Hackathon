@@ -15,7 +15,7 @@ $user_id = $facebook->getUser();
 <html>
 	<head>
 		<title>Musical Fun</title>
-    <script src="jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
 	</head>
 	<body>
 		<div id="fb-root"></div>

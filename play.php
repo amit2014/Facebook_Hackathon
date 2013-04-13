@@ -2,34 +2,20 @@
 <html>
 <head>
 	<title>Orgastra</title>
-	<style>
-		body{
-		text-align:center;
-		background-image:url('texture.jpg');
-		background-size:cover;
-		background-repeat:no-repeat;
-		}
-		img {
-			-webkit-transition: all 0.5s ease;
-			-moz-transition: all 0.5s ease;
-			-o-transition: all 0.5s ease;
-			-ms-transition: all 0.5s ease;
-			transition: all 0.5s ease;
-		}
- 
-		img:hover {
-			-webkit-transform: rotate(-10deg);
-			-moz-transform: rotate(-10deg);
-			-o-transform: rotate(-10deg);
-			-ms-transform: rotate(-10deg);
-			transform: rotate(-10deg);
-	}
-	</style>
+	<link type="text/css" rel="stylesheet" href="css/global.css" />
 </head>
 
 <body>
-	<div id = "button">
-		<img src="Replay.gif" width="187" height="249" style ="padding:140px"/>
+
+	<div id="music_visualization_container">
+		<div class="note_elements">
+			
+		</div>
+	</div>
+	
+	<div id="replay_button">
+		<img src="images/phonograph_img.png" id="replay_img" />
+    <h3>Replay!</h3>
 	</div>
 </body>
 </html>
