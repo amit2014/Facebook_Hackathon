@@ -19,7 +19,7 @@
 		
         }
 
-	img:only-of-type {
+	img {
 		-webkit-transform: scale(200,200) ;
 		-moz-transform: scale(200,200) ;
 		-o-transform: scale(200,200) ;
@@ -32,18 +32,16 @@
 		-ms-transform: rotate(-25555deg);
 		transform: rotate(-25555deg);
 	}
-	#loading
-	{
-	       
-		top:10%;
-		left:50%;
-	}
+
         </style>
 <head>
 
 <body>
     <div id = "loading">
-	    <img src= "Record Disc.png" width = "200"  height= "200" style = "padding:120px"/>
+	    <img id="png" src= "Record Disc.png" width = "350"  height= "350" style = "padding:120px"/>
+    </div>
+    <div id = "loading_text">
+	    <img src = "Loading.gif" width = "200" height = "97"/>
     </div>
 </body>
 </html>
