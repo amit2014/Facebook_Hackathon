@@ -382,5 +382,16 @@ $app_name = idx($app_info, 'name', '');
       </ul>
     </section>
     <img src="IMG_1308a.gif" />
+    <button type="button" id="demo1">Test Happy!</button>
+    <button type="button" id="demo2">Test Sad!</button>
+
+    <script>
+      $("demo1").click(function() {
+      	playExample(0);
+      });
+      $("demo2").click(function() {
+        playExample(1);
+      });
+    </script>
   </body>
 </html>
