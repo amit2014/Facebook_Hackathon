@@ -45,6 +45,7 @@ if ($user_id) {
   try {
     // Fetch the viewer's basic information
     $basic = $facebook->api('/me');
+    console.log("LOLOLO");
   } catch (FacebookApiException $e) {
     // If the call fails we check if we still have a user. The user will be
     // cleared if the error is because of an invalid accesstoken
