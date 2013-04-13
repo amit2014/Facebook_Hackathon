@@ -380,5 +380,6 @@ $app_name = idx($app_info, 'name', '');
         </li>
       </ul>
     </section>
+    <img src="IMG_1308a.gif" />
   </body>
 </html>
